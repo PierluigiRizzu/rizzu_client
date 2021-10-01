@@ -11,17 +11,18 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+TODO: This is a simple Networking Client, written in Dart using Dio.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+It's just simple to use! Look at the example!
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+```dart
+import 'package:rizzu_client/rizzu_client.dart';
+```
+Just import this and u are ready to go!
 
 ## Usage
 
@@ -29,11 +30,10 @@ TODO: Include short and useful examples for package users. Add longer examples
 to `/example` folder. 
 
 ```dart
-const like = 'sample';
+ var rizzuClient = RizzuClient(baseUrl: 'https://jsonplaceholder.typicode.com/posts/1');
+ print(await rizzuClient.call('', method: ApiMethod.GET));
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+Feel free to contribute!
