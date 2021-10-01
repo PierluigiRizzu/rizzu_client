@@ -26,9 +26,6 @@ Just import this and u are ready to go!
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
 ```dart
  var rizzuClient = RizzuClient(baseUrl: 'https://jsonplaceholder.typicode.com/posts/1');
  print(await rizzuClient.call('', method: ApiMethod.GET));
