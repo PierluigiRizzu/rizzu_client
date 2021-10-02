@@ -39,14 +39,14 @@ then Just import this and u are ready to go!
  //GET REQUEST
  await rizzuClient.call('posts', method: ApiMethod.GET);
  //POST REQUEST
-  await a.call('/posts', method: ApiMethod.POST, params: {
+  await rizzuClient.call('/posts', method: ApiMethod.POST, params: {
     'id': 5,
     'title': 'foo',
     'body': 'bar',
     'userId': '1',
   });
 //PUT REQUEST 
- await a.call('/posts/1', method: ApiMethod.PUT, params: {
+ await rizzuClient.call('/posts/1', method: ApiMethod.PUT, params: {
     'id': 1,
     'title': 'foo',
     'body': 'hii',
