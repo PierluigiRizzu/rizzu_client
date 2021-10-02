@@ -30,7 +30,7 @@ flutter:
 ```dart
 import 'package:rizzu_client/rizzu_client.dart';
 ```
-Just import this and u are ready to go!
+then Just import this and u are ready to go!
 
 ## Usage
 
