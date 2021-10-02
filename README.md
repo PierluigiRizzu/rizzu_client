@@ -19,6 +19,14 @@ It's just simple to use! Look at the example!
 
 ## Getting started
 
+Please remember to add the package as a dependency.
+```dart
+flutter:
+    sdk: flutter
+  rizzu_client: 
+```  
+
+
 ```dart
 import 'package:rizzu_client/rizzu_client.dart';
 ```
