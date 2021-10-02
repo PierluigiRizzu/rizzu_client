@@ -11,7 +11,7 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: This is a simple Networking Client, written in Dart using Dio.
+This is a simple Networking Client, written in Dart using Dio.
 
 ## Features
 
@@ -27,8 +27,24 @@ Just import this and u are ready to go!
 ## Usage
 
 ```dart
- var rizzuClient = RizzuClient(baseUrl: 'https://jsonplaceholder.typicode.com/posts/1');
- print(await rizzuClient.call('', method: ApiMethod.GET));
+ var rizzuClient = RizzuClient(baseUrl: 'https://jsonplaceholder.typicode.com/');
+ //GET REQUEST
+ await rizzuClient.call('posts', method: ApiMethod.GET);
+ //POST REQUEST
+  await a.call('/posts', method: ApiMethod.POST, params: {
+    'id': 5,
+    'title': 'foo',
+    'body': 'bar',
+    'userId': '1',
+  });
+//PUT REQUEST 
+ await a.call('/posts/1', method: ApiMethod.PUT, params: {
+    'id': 1,
+    'title': 'foo',
+    'body': 'hii',
+    'userId': '1',
+  });
+ 
 ```
 
 ## Additional information
