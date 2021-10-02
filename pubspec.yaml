@@ -1,6 +1,6 @@
 name: rizzu_client
-description: A Simple Networking Client, using Dio.
-version: 0.0.2
+description: Networking Request Builder, using Dio.
+version: 0.1.0
 homepage:
 
 environment:

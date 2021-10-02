@@ -11,7 +11,7 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-This is a simple Networking Client, written in Dart using Dio.
+This is a simple Networking Request Builder, written in Dart using Dio.
 
 ## Features
 

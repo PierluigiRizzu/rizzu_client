@@ -1,3 +1,8 @@
+## 0.1.0
+
+* Clearer Docs.
+
+
 ## 0.0.1
 
-* TODO: Describe initial release.
+* Project bootstrap.
