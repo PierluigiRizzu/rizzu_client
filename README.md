@@ -35,7 +35,7 @@ then Just import this and u are ready to go!
 ## Usage
 
 ```dart
- var rizzuClient = RizzuClient(baseUrl: 'https://jsonplaceholder.typicode.com/');
+ RizzuClient rizzuClient = RizzuClient(baseUrl: 'https://jsonplaceholder.typicode.com/');
  //GET REQUEST
  await rizzuClient.call('posts', method: ApiMethod.GET);
  //POST REQUEST
