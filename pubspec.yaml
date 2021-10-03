@@ -1,6 +1,6 @@
 name: rizzu_client
-description: Networking Request Builder, using Dio.
-version: 0.1.0
+description: Networking Request Builder, using Dio. Its purpose is to make easier doing API requests and to give devs an out-of-the box working client.
+version: 0.1.1
 homepage:
 
 environment:
